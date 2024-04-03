@@ -32,20 +32,33 @@ const Skills = () => {
                     viewport={{margin:'-40px'}}
                     transition={{duration:3.5 , type:'spring'}}  
                     className="sk-mainCircle">
-                        <div className="sk-secCircle">
-                        <img src={reactlogo} alt="logoos" />
+                    <div className="sk-secCircle">
+                        <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">
+                            <img src={reactlogo} alt="logoos" />
+                        </a>
                     </div>
                     <div className="sk-secCircle">
-                        <img src={mongodb} alt="logoos" />
+                        <a href="https://www.mongodb.com/docs/" target="_blank" rel="noopener noreferrer">
+                            <img src={mongodb} alt="logoos" />
+                        </a>
+                   </div>
+                    <div className="sk-secCircle">
+                        <a href="https://en.wikipedia.org/wiki/MEAN_(solution_stack)" target="_blank" rel="noopener noreferrer">
+                            <img src={mern} alt="logoos" />
+                        </a>
+                        
                     </div>
                     <div className="sk-secCircle">
-                        <img src={mern} alt="logoos" />
+                        <a href="https://nodejs.org/en" target="_blank" rel="noopener noreferrer">
+                            <img src={node} alt="logoos" />
+                        </a>
+                        
                     </div>
                     <div className="sk-secCircle">
-                        <img src={node} alt="logoos" />
-                    </div>
-                    <div className="sk-secCircle">
-                        <img src={express} alt="logoos" />
+                        <a href="https://expressjs.com/" target="_blank" rel="noopener noreferrer">
+                            <img src={express} alt="logoos" />
+                        </a>
+                        
                     </div>
                     </motion.div>
                     <div className="sk-backCircle blueCircle"></div>

@@ -1,8 +1,4 @@
 import React from 'react'
-// import blob from '../images/blob.png'
-// import blob1 from '../images/blob1.png'
-// import blob2 from '../images/blob2.png'
-// import blob3 from '../images/blob3.png'
 import giphy from '../images/giphy.gif'
 import mernlogo from '../images/mern.png'
 import FloatingDiv from '../components/FloatingDiv'
@@ -11,7 +7,6 @@ import { themeContext } from '../Context'
 import { useContext } from 'react'
 import {motion} from 'framer-motion'
 import Socials from '../components/Socials'
-import { Link } from 'react-scroll'
 
 const Intro = () => {
     const theme = useContext(themeContext)
@@ -29,10 +24,12 @@ const Intro = () => {
                         </span>
                         <span style={{color:darkMode? 'white': ''}}>Full Stack MERN Developer experienced in web design and development, proficient in API integration, backend development, and database management.</span>
                     </div>
-                    <Link spy={true} to='Contact' smooth={true} activeClass='activeClass'>
-                    <div className="i-button">
-                        <button className='raise'>Hire Me</button>
-                    </div></Link>
+                    
+                    <a href="mailto:roshankhatri9515@gmail.com">
+                        <div className="i-button">
+                            <button className='raise'>Hire Me</button>
+                        </div>
+                    </a>
                     <Socials/>
 
                 </div>

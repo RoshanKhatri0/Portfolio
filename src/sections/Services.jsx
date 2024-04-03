@@ -36,6 +36,7 @@ const Services = () => {
                 style={{left:'24rem'}}>
                     <Card 
                     emoji = {figma} heading = 'Design' detail = 'Specialize in creating designs that are both visually stunning and highly functional'
+                    link = 'https://www.figma.com/files/user/1146759741230443653?fuid=1146759741230443653'
                     />
                 </motion.div>
                 <motion.div
@@ -45,6 +46,7 @@ const Services = () => {
                 style={{top:'12rem',left:'6rem'}}>
                     <Card
                     emoji = {developer} heading = 'Developer' detail = 'FrontEnd (Html, Css, JavaScript, React), Backend(Nodejs, Expressjs, MongoDb)'
+                    link = 'https://github.com/RoshanKhatri0'
                     />
                 </motion.div>
                 <motion.div
@@ -54,6 +56,7 @@ const Services = () => {
                 style={{left:'22rem',top:'19rem'}}>
                     <Card
                     emoji = {uiux} heading = 'UI/UX' detail = 'Dedicated to creating seamless digital experiences'
+                    link = 'https://github.com/RoshanKhatri0'
                     />
                 </motion.div>
                 <div className="blur s-blur2" style={{background:"var(--purple"}}></div>

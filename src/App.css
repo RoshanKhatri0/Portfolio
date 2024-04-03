@@ -313,7 +313,7 @@ transform: translateY(-0.15em);
   background: white;
   box-shadow: var(--smboxShadow);
 }
-.sk-secCircle>img{
+.sk-secCircle>a>img{
   height: 100px;
 }
 .sk-backCircle{
