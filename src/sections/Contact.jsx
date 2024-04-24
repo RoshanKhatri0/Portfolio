@@ -59,6 +59,7 @@ const Contact = () => {
               placeholder='Name'
               value={formData.user_name}
               onChange={handleChange}
+              required
             />
             <input
               type="email"
@@ -67,6 +68,7 @@ const Contact = () => {
               placeholder='Email'
               value={formData.user_email}
               onChange={handleChange}
+              required
             />
             <textarea
               type="message"
@@ -75,6 +77,7 @@ const Contact = () => {
               placeholder='Message'
               value={formData.message}
               onChange={handleChange}
+              required
             />
             <input type="submit" value='Send' className='raise' />
             <span style={{ color: darkMode ? 'white' : '' }}>{done && "Thanks for contacting me!"}</span>
